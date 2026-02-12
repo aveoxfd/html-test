@@ -19,4 +19,11 @@ $(document).ready(function() {
         else (alert('we have not found this'))
     })
 
+    //$('input:text') pseudoclass
+    $('input[name = "nick"]').val('Your name')
+
+    alert($('input:submit').val())
+    
+    $('input:checkbox').val(['InternetExplorer','Opera'])
+
 });
