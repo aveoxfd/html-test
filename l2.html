@@ -13,6 +13,8 @@
         }
     </style>
 </head>
+
+
 <body>
     <div id="something">
         <p>this is some text</p>
@@ -45,8 +47,23 @@
     </p>
 
     <p>
-        <b>which browser do you use frequently:</b><br>
-        <input type="checkbox" name = "browser", value="ie">Internet Explorer<br>
+        <b>which browser do you use frequently:</b>
+        <div class = "browser-group">
+            <label><input type="checkbox" name = "browser" value="ie">Internet Explorer</label>
+            <label><input type="checkbox" name = "browser" value="ie">Opera</label>
+            <label><input type="checkbox" name = "browser" value="ie">Amigo</label>
+            <label><input type="checkbox" name = "browser" value="ie">Chrome</label>
+            <label><input type="checkbox" name = "browser" value="ie">Yandex</label>
+            <label><input type="checkbox" name = "browser" value="ie">FireFox</label>
+        </div>
+    </p>
+
+    <p>Commentary<br>
+        <textarea neme = "comment" cols="40" rows="3"></textarea>   
+    </p>
+
+    <p><input type="submit" value = "Send">
+        <input type = "reset" value = "Clear">
     </p>
 </form>
 </body>
